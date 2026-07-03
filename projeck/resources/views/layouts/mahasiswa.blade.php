@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/layouts/mahasiswa.blade.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/mahasiswa.blade.css') }}">
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         // Prevent FOUC - set theme before render

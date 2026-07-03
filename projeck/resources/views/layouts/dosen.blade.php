@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/layouts/dosen.blade.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/dosen.blade.css') }}">
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
         // Prevent FOUC - set theme before render
@@ -62,18 +62,6 @@
                     class="{{ request()->routeIs('dosen.absensi.*') ? 'active' : '' }}" data-tooltip="Absensi kelas">
                     <i data-lucide="calendar-check"></i>
                     <span>Absensi</span>
-                </a>
-            </div>
-
-            <div class="sidebar-section">
-                <div class="sidebar-section-title">Lainnya</div>
-                <a href="#" data-tooltip="Pengaturan akun">
-                    <i data-lucide="settings"></i>
-                    <span>Pengaturan</span>
-                </a>
-                <a href="#" data-tooltip="Bantuan & dukungan">
-                    <i data-lucide="help-circle"></i>
-                    <span>Bantuan</span>
                 </a>
             </div>
 
